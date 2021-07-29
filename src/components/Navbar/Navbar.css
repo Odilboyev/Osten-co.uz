@@ -1,0 +1,27 @@
+.navbar-links {
+    list-style-type: none;
+    background-color: #fff;
+    position: fixed;
+    z-index: 99;
+    right: 0;
+    top: 70px;
+    width: 230px;
+    height: calc(100vh);
+    text-align: left;
+    padding: 0 20px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.navbar-links a {
+    text-transform: uppercase;
+    color: #222222;
+    font-weight: 500;
+    font-size: 18px;
+    display: block;
+    margin: 20px 25px;
+    text-decoration: none !important;
+}
+
+.navbar-links a:hover {
+    color: #febc22;
+}
